@@ -85,3 +85,23 @@ img {
     height: 290vh;
     border: 1px solid black;
 }
+
+.contact {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box {
+    width: 60vw;
+    height: 80vh;
+    border: 1px solid black;
+}
+
+.footer {
+    height: 20vh;
+    background: url("images/blackTexture.png");
+}
