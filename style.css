@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+}
+
+.navigation {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background: url("images/blackTexture.png");
+    margin: 0;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+#navigation-header {
+    font-family: sans-serif;
+    color: white;
+}
+
+#navigation-list {
+    list-style: none;
+}
+
+.navigation-list-item {
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+}
