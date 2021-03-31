@@ -9,7 +9,6 @@ body, html {
     background: url("images/blackTexture.png");
     margin: 0;
 
-    justify-content: center;
     align-items: center;
 
     width: 100%;
@@ -18,14 +17,29 @@ body, html {
 #navigation-header {
     font-family: sans-serif;
     color: white;
+    margin: 0 0 0 5vw;
 }
 
 #navigation-list {
     list-style: none;
+    margin: 0 0 0 15vw;
 }
 
 .navigation-list-item {
     display: inline;
+
+    padding: 1.4vh;
+}
+
+.link {
+    text-decoration: none;
     color: white;
     font-family: sans-serif;
+
+    padding: 1.4vh 1vw;
+}
+
+#home:hover, #about-me:hover, #skills:hover, #contact-me:hover, #copyright:hover {
+    background: white;
+    color: black;
 }
