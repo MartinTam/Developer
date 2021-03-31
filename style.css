@@ -70,3 +70,18 @@ img {
     width: 2vw;
     margin: 1vh 0.5vw;
 }
+
+.main-bar {
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bar-box {
+    width: 60vw;
+    height: 290vh;
+    border: 1px solid black;
+}
