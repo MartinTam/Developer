@@ -2,6 +2,11 @@ body, html {
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .navigation {
     position: fixed;
     display: flex;
@@ -72,17 +77,18 @@ body, html {
 }
 
 .main-bar {
-    height: 300vh;
+    height: 210vh;
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
+
 }
 
 .main-bar-box {
     width: 50vw;
-    height: 290vh;
+    height: 200vh;
 
 }
 
@@ -158,12 +164,12 @@ body, html {
 
     justify-content: center;
     align-items: center;
+
 }
 
 .contact-box {
-    width: 60vw;
+    width: 50vw;
     height: 80vh;
-    border: 1px solid black;
 }
 
 .footer {
