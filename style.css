@@ -66,10 +66,6 @@ body, html {
     color: white;
 }
 
-h1 {
-    font-family: sans-serif;
-}
-
 .icons {
     width: 2vw;
     margin: 1vh 0.5vw;
@@ -93,12 +89,67 @@ h1 {
 #john-doe {
     float: right;
     width: 17vw;
-    margin: 0 2em 2em 2em;
+    margin: 0 0 2em 2em;
 }
+
+#about-me-header {
+    font-family: sans-serif;
+    margin-top: 2em;
+}
+
 #about-me-text {
     font-family: sans-serif;
     line-height: 1.5em;
     margin: 3em 0 0 0;
+}
+
+#coding-image {
+    float: left;
+    margin: 0 2em 2em 0;
+    width: 20vw;
+}
+
+#coding-header {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 8em;
+
+}
+#coding-text {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#skills-header {
+    font-family: sans-serif;
+    margin-top: 2em;
+}
+
+#skills {
+    margin-top: 5em;
+}
+
+#design {
+    margin-top: 20em;
+}
+
+#design-image {
+    float: right;
+    width: 20vw;
+    margin: 0 0 2em 2em;
+}
+
+#design-header {
+    font-family: sans-serif;
+    margin-top: 17em;
+    text-align: center;
+}
+
+#design-text {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    text-align: center;
 }
 .contact {
     height: 90vh;
