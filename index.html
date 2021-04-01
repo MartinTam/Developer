@@ -15,15 +15,15 @@
         <div class = "navigation">
             <h1><a href = "#" id = "navigation-header">John Doe</a></h1>
             <ul id = "navigation-list">
-                <li class = "navigation-list-item" ><a href = "#" class = "link" id = "home">Home</a></li>
-                <li class = "navigation-list-item"><a href = "#" class = "link" id = "about-me">About me</a></li>
-                <li class = "navigation-list-item"><a href = "#" class = "link" id = "skills">Skills</a></li>
-                <li class = "navigation-list-item"><a href = "#" class = "link" id = "contact-me">Contact me</a></li>
-                <li class = "navigation-list-item"><a href = "#" class = "link" id = "copyright">Copyright</a></li>
+                <li class = "navigation-list-item" ><a href = "#home-link" class = "link" id = "home">Home</a></li>
+                <li class = "navigation-list-item"><a href = "#about-me-link" class = "link" id = "about-me">About me</a></li>
+                <li class = "navigation-list-item"><a href = "#skills-link" class = "link" id = "skills">Skills</a></li>
+                <li class = "navigation-list-item"><a href = "#contact-me-link" class = "link" id = "contact-me">Contact me</a></li>
+                <li class = "navigation-list-item"><a href = "#copyright-link" class = "link" id = "copyright">Copyright</a></li>
             </ul>
         </div>
         
-        <div class = "info-bar">
+        <div class = "info-bar" id = "home-link">
             <h1 id = "info-bar-header">John Doe</h1>
             <p id = "info-bar-text">Software engineer, full stack web developer, data scientist and passionate programmer.</p>
             <p> 
@@ -34,7 +34,7 @@
             </p>
         </div>
 
-        <div class = "main-bar">
+        <div class = "main-bar" id = "about-me-link">
             <div class = "main-bar-box">
                 <h1 id = "about-me-header">About me</h1>
                 <p id = "about-me-text"> 
@@ -78,6 +78,7 @@
                 </p>
 
                 <h1 id = "skills-header">Skills</h1>
+                <div id = "skills-link"></div>
                 <p id = "skills">
                     <img src = "images/coding.jpg" alt = "coding" id = "coding-image">
                     <h2 id = "coding-header">Coding</h2>
@@ -103,14 +104,21 @@
             </div>
         </div>
         
-        <div class = "contact">
+        <div class = "contact" id = "contact-me-link">
             <div class = "contact-box">
+                <h1 id = "contact-header">Contact me</h1>
+                <input type = "text" placeholder = "Name" class = "input-text">
+                <input type = "text" placeholder = "Email" class = "input-text">
+                <input type = "text" placeholder = "Subject" class = "input-text">
+                <textarea rows = 10 cols = 50 id = "text-area"> 
 
+                </textarea>
+                <button id = "send-button"> <strong>SEND</strong> </button>
             </div>
         </div>
         
-        <footer class = "footer">
-
+        <footer class = "footer" id = "copyright-link">
+            Copyright &copy; Martin Tam 2021
         </footer>
 
     </body>
